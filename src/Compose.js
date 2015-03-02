@@ -36,7 +36,7 @@ var _prepare = function( input ) {
     }
   } else if( isArray( input ) ) {
     ret = {
-      callback: input[ 0 ];
+      callback: input[ 0 ]
     };
 
     // now check the other two
